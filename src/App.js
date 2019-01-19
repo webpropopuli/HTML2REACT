@@ -15,6 +15,7 @@ class App extends Component {
       <>
         <div className="page-container">
           <Header />
+
           <Main name={this.state.name} />
 
           <Footer />
